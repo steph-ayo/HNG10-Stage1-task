@@ -50,3 +50,16 @@ footer {
 .github:hover {
   color: green;
 }
+
+@media (max-width: 768px) {
+  /* Add your CSS styles for smaller screens here */
+  body {
+    max-width: 100%;
+  }
+  .username {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
